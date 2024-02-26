@@ -1,0 +1,12 @@
+.card {
+    width: 300px; /* Set an appropriate width for your card */
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.imghouse {
+    max-width: 100%;
+    height: auto;
+}
+
