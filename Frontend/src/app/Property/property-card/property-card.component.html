@@ -1,7 +1,17 @@
 
  
   <div class="card">
-    <img class="imghouse" src="assets/images/Dream_house.jpg">
+    <div class="card-img-wrapper">
+    <img class="card-img-top" src="assets/images/Dream_house.jpg">
+    <ul class="list-inline text-center member-icons animate">
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-primary"><i class="fa-solid fa-address-book"></i></button>
+      </li>
+    </ul>
+    </div>
     <h1>{{property.name}}</h1>
     <h2> {{property.type}}</h2>
     <h3>{{property.price}}</h3>

@@ -1,12 +1,40 @@
-.card {
-    width: 300px; /* Set an appropriate width for your card */
-    border: 1px solid #ccc;
-    padding: 20px;
-    text-align: center;
+
+.card:hover img{
+    transform: scale(1.2,1.2);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    height: 250px;
+    opacity: .5;
 }
 
-.imghouse {
-    max-width: 100%;
-    height: auto;
+.card:img{
+    transform: scale(1,1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    height: 250px;
 }
 
+.card-img-wrapper{
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.member-icons{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0;
+}
+
+.card-img-wrapper:hover .member-icons{
+    bottom: 0;
+    opacity: 1;
+}
+
+.animate{
+    transition: all 0.3s ease-in-out;
+}
